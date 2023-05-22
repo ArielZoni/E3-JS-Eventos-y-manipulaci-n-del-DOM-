@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #252525;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  background: linear-gradient(to right, #fdc830, #f37335);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.pizza {
+  width: min(90%, 300px);
+  margin-top: 50px;
+}
+
+main{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 50px;
+}
+
+.infoPizza{
+    margin-top: 20px;
+    border: 1px solid #0d0d0d;
+    width: 300px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cart-input{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#idPizza{   
+  border-radius: 20px; 
+  width: 150px;
+  height: 30px; 
+  text-align: center;
+}
+
+#button-card{
+  padding: 10px 25px;
+  border-radius: 1rem;
+  background-color: #0d0d0d;
+  font-size: 14px;
+  
+  background: -webkit-linear-gradient(135deg, #fdc830 0%, #f37335 100%);
+  background: linear-gradient(135deg, #fdc830 0%,  #f37335 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+.precio{
+  margin: 10px;
+    background-color: #f37335;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 30%;
+
+}
+
+.error{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #0d0d0d;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 30px 0px;
+  position: absolute;
+  bottom: 0;
+}
